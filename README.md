@@ -1,0 +1,2 @@
+# django-school
+school journey
