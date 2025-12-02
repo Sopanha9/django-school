@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      @keyframes zoomBg {
+        from {
+          background-size: 110%;
+        }
+        to {
+          background-size: 100%;
+        }
+      }
+      .hero-bg {
+        background-size: 110%;
+        animation: zoomBg 6s ease-in-out infinite alternate;
+      }
+    
+    </style> -->
+  </head>
+
+  <body>
+    <div class="bg-gray-50">
+      <nav class="relative">
+        <div class="flex justify-between items-center px-4 py-5 fixed w-full bg-white shadow-md">
+          <h1 class="text-2xl font-bold text-red-500">Terkork Technology</h1>
+          <ul class="flex gap-10">
+            <li class="hover:text-red-500 cursor-pointer">Home</li>
+            <li class="hover:text-red-500 cursor-pointer">
+              <a href="#service">Services</a>
+            </li>
+            <li class="hover:text-red-500 cursor-pointer">About Us</li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Hero Section-->
+      <section
+        class="h-[500px] bg-cover bg-center flex flex-col items-center justify-center hero-bg"
+        style="
+          background-image: url('https://imgs.search.brave.com/GFrUsSz7EnsNxLqV9U9Oj0UOoJqwivZqFBfo0TuM7Wo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9kaWdpdGFsLXRl/Y2hub2xvZ3ktZnV0/dXJpc3RpYy1iYW5u/ZXItd2l0aC1jaXJj/dWl0LWxpbmVzXzMy/NzA3Mi0yNDcxNS5q/cGc_c2VtdD1haXNf/aHlicmlkJnc9NzQw/JnE9ODA');
+        "
+      >
+        <h2 class="text-4xl font-bold text-white">
+          We make technology work for you, to enhance your business
+        </h2>
+        <div class="mhax-w-3xl text-center px-4 font-sans">
+          <p class="mt-3 text-white">
+            At Terkork Technology, we specialize in delivering innovative tech
+            solutions that drive business success. Our team of experts is
+            dedicated to understanding your unique needs and providing tailored
+            services that help you stay ahead in a rapidly evolving digital
+            landscape.
+          </p>
+          <button class="bg-blue-500 px-4 py-3 rounded-sm mt-3">
+            Learn more
+          </button>
+        </div>
+      </section>
+
+      <!-- AAbout us-->
+      <section >
+        <div
+          class="grid grid-cols-2 mt-15 ml-10 mb-10"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <img
+            src="https://imgs.search.brave.com/sdIbN3_g112HrAfZyqi6z5G03XvchApsHnV-pJM-8o4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y3JlYXRlLnZpc3Rh/LmNvbS9hcGkvbWVk/aWEvc21hbGwvMTc0/NjUxODk2L3N0b2Nr/LXBob3RvLXRlYW13/b3Jr"
+            class="rounded-lg w-[450px] h-[250px] object-cover"
+          />
+          <div>
+            <h2 class="text-3xl font-bold mt-5">About Us</h2>
+            <p class="mt-3">
+              Terkork Technology is a leading provider of cutting-edge
+              technology solutions designed to empower businesses in the digital
+              age. With a team of experienced professionals, we are committed to
+              delivering innovative services that drive growth and efficiency
+              for our clients.
+            </p>
+            <button class="bg-blue-500 px-4 py-3 rounded-sm mt-3">
+              Read more
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- switch side-->
+      <section
+        id="service"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <div class="grid grid-cols-2 mt-30 ml-10 mb-10">
+          <div>
+            <h2 class="font-bold text-3xl mb-1">Services</h2>
+            <p>
+              Our comprehensive range of services includes software development,
+              IT consulting, cloud solutions, and cybersecurity. We work closely
+              with our clients to understand their unique needs and deliver
+              customized solutions that help them achieve their business goals.
+            </p>
+            <button class="bg-blue-500 px-4 py-3 rounded-sm mt-3">
+              Read more
+            </button>
+          </div>
+          <img
+            src="https://imgs.search.brave.com/KyYso7yI3eGmXLC3RTEfGoy8RYPk2lkrU_m4iidTc70/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ0/NjMxMTU0Ni9waG90/by95b3VuZy13b21h/bi1jZW8tYW5kLXBy/b2dyYW1tZXItaW4t/c21hcnQtZ2xhc3Nl/cy13b3JraW5nLXdp/dGgtbGFwdG9wLWF0/LW5pZ2h0LmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz0wOVdy/NmVUSmQzcEJmdXpZ/akg0NUk0ZnQxNVQ0/RUpydmJ1cXBVeGNy/TlpZPQ"
+            alt=""
+            class="rounded-lg w-[450px] h-[250px] object-cover ml-25"
+          />
+        </div>
+      </section>
+
+      <!-- Service-->
+      <section class="py-16 px-30">
+          <div>
+            <h3 class="text-3xl font-bold ">Services</h3>
+            <div class="grid grid-cols-3 gap-4">
+              <!-- Service 1 -->
+               <div class="relative">
+                  <img src="https://public.solicy.net/large_android_app_development_227ce43304.webp" alt="" class="w-full h-60 object-cover rounded-lg"/>
+                <div class=" absolute inset-0 text-2xl flex justify-center items-center  flex-col">
+                  <h2 class=" bottom-3 text-white font-bold">Mobile App Development</h2>
+                  <p>Mobile development</p>
+                </div>
+               </div>
+
+               <div class="relative">
+                <img src="https://www.justinmind.com/wp-content/uploads/2019/10/best-20-web-development-blogs.png" class="w-full h-60 object-cover rounded-lg">
+                <div class="absolute inset-0 text-2xl flex justify-center items-center  flex-col ">
+                  <h2 class="bottom-3 font-bold text-white ">Web Development</h2>
+                  <p>Web development</p>
+                </div>
+               </div>
+
+               <div class="relative">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqDeReMyKOCEAXLbTnCMy5eLBHQmO59RPoA&s" class="w-full h-60 object-cover rounded-lg">
+                <div class="absolute inset-0 text-2xl flex justify-center items-center  flex-col ">
+                  <h2 class="bottom-3 font-bold text-white ">Cloud Solutions</h2>
+                  <p>Cloud solutions</p>
+                </div>
+               </div>
+            </div>
+          </div>
+      </section>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
